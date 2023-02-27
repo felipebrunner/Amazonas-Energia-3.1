@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body{
+    background-image: linear-gradient( #5D8AA6, #8CA62D);
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+
+main{
+    background-color: #F2F2F2;
+    border-radius: 50px;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 10px 5px 5px #0234533b ;
+}
+mark {
+    background-color: #8ca62d70;
+}
+
+li{
+    line-height: 26px;   
+}
+

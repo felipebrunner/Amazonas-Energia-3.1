@@ -1,0 +1,103 @@
+@meta charset="UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#5D8AA6, #8CA62D);
+    background-attachment: fixed;
+    
+    
+  
+}
+
+#div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #034873;
+  height: 40px;
+  padding: 10px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#procura{
+  border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #F2F2F2;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    font-family:;
+    font-style: normal;
+}
+
+#search-btn{
+  width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #034873;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+#div:hover>#procura{
+  width: 240px;
+  padding: 0 6px;
+  
+  
+}
+
+#div:hover + #list{
+  opacity: 100;
+}
+
+#list:hover{
+  opacity: 100;
+}
+
+#list{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40px;
+  opacity: 0;
+  transition: .5s;
+
+}
+a{
+  text-decoration: none;
+  color: #034873;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+}
+
+#div:hover>#search-btn{
+  background: #F2F2F2;
+}
+
+
+
+
+.process{
+  display: list-item;    
+ } 
+
