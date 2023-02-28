@@ -98,6 +98,7 @@ a{
 
 
 .process{
-  display: list-item;    
+  display: list-item; 
+  padding-bottom: 5px;   
  } 
 
